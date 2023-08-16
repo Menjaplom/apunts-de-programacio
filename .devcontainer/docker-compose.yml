@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  JupyCer_Notebook:
+    image:  brendanrius/jupyter-c-kernel
+    ports:
+      - "8888:8888"

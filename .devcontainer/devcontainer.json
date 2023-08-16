@@ -1,0 +1,14 @@
+{
+    "name": "JupyCer_Notebook",
+    "image": "brendanrius/jupyter-c-kernel",
+    "forwardPorts": [8888],
+    //"shutdownAction": "stopCompose",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter",
+                "ms-vscode.cpptools"
+            ]
+        }
+    }
+}
